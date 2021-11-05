@@ -1,0 +1,5 @@
+body{ background-color: rgb(255, 200, 255);}
+h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center;}
+label{font-family: Arial, Helvetica, sans-serif;}
+#optionalText {font-style: italic;}
+.NameOfForm { text-align: center; color: whitesmoke ; background-color: purple; }
