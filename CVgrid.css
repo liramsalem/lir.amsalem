@@ -1,0 +1,73 @@
+bodt{
+    background-color:rgb(252, 250, 233);
+}
+
+#GridContainer {
+    display: grid;
+    grid-template-areas:
+     'header header header'
+     'left main main'
+     'left main main'
+}
+
+#item1{
+    grid-area: header;
+    width: 100%;
+    background-color: rgb(0, 255, 234);
+    height: 33vh;
+    
+}
+
+#item2{
+    grid-area: left;
+    width: 100%;
+    background-color: rgb(0, 162, 255);
+    height: 66vh;
+}
+
+
+#item3{
+    grid-area: main;
+    width:100%;
+    background-color: rgb(1, 21, 85);
+    height:66vh;
+}
+
+/* התאמה למסך קטן*/
+@media only screen and (max-width: 600px) {
+   body {
+       background-color:rgb(245, 177, 217) ;
+   }
+   #GridContainer { /* עשינו גריד חדש*/
+    display: grid;
+    grid-template-areas: /* כדי להתאים לו ליוט*/
+     'header'
+     'left'
+     'main'
+}
+
+#item1{
+    grid-area: header;
+    width: 100%;
+    background-color: rgb(255, 0, 119);
+    height: 33vh;
+    
+}
+
+#item2{
+    grid-area: left;
+    width: 100%;
+    background-color: rgb(184, 3, 123);
+    height: 66vh;
+}
+
+
+#item3{
+    grid-area: main;
+    width:100%;
+    background-color: rgb(85, 1, 36);
+    height:66vh;
+}
+
+
+}
