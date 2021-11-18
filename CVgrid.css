@@ -15,7 +15,18 @@ bodt{
     width: 100%;
     background-color: rgb(0, 255, 234);
     height: 33vh;
-    
+    animation-name: blink;
+    animation-duration: 3s;
+    animation-iteration-count: 3;   
+}
+
+@keyframes blink{
+    0% {background-color: rgba(179, 207, 228, 0.447);}
+    25% {background-color: rgb(128, 189, 247);}
+    50% {background-color:rgb(64, 136, 243);}
+    75% {background-color: rgb(128, 189, 247)e;}
+    100% {background-color: rgba(179, 207, 228, 0.447);}
+
 }
 
 #item2{
@@ -51,7 +62,19 @@ bodt{
     width: 100%;
     background-color: rgb(255, 0, 119);
     height: 33vh;
+    animation-name: blinkSmallScreen;
+    animation-duration: 3s;
+    animation-iteration-count: 3;   
     
+}
+
+@keyframes blinkSmallScreen{
+    0% {background-color: rgba(179, 207, 228, 0.447);}
+    25% {background-color: rgb(250, 182, 224);}
+    50% {background-color:rgb(177, 68, 153);}
+    75% {background-color: rgb(250, 182, 224);}
+    100% {background-color: rgba(179, 207, 228, 0.447);}
+
 }
 
 #item2{
@@ -68,6 +91,7 @@ bodt{
     background-color: rgb(85, 1, 36);
     height:66vh;
 }
+
 
 
 }
